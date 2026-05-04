@@ -8,7 +8,7 @@
       "rating": 4.9,
       "duration": "25 min",
       "level": "Beginner",
-      "imageUrl": "https://picsum.photos/id/0/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004459.png",
       "steps": [
         {"title": "Choose a task", "durationInMinutes": 25},
         {"title": "Set timer 25 min", "durationInMinutes": 25},
@@ -23,7 +23,7 @@
       "rating": 4.7,
       "duration": "25 min",
       "level": "Easy",
-      "imageUrl": "https://picsum.photos/id/1/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2170/2170149.png",
       "steps": [
         {"title": "Put phone away", "durationInMinutes": 25},
         {"title": "Use Focus Mode", "durationInMinutes": 25},
@@ -38,7 +38,7 @@
       "rating": 4.8,
       "duration": "25 min",
       "level": "Intermediate",
-      "imageUrl": "https://picsum.photos/id/2/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3245/3245822.png",
       "steps": [
         {"title": "Write your task", "durationInMinutes": 25},
         {"title": "Block distractions", "durationInMinutes": 25},
@@ -53,7 +53,7 @@
       "rating": 4.6,
       "duration": "5 min",
       "level": "Easy",
-      "imageUrl": "https://picsum.photos/id/3/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3014/3014407.png",
       "steps": [
         {"title": "Stand up", "durationInMinutes": 5},
         {"title": "Drink water", "durationInMinutes": 5},
@@ -68,7 +68,7 @@
       "rating": 5.0,
       "duration": "90 min",
       "level": "Expert",
-      "imageUrl": "https://picsum.photos/id/4/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/10300/10300998.png",
       "steps": [
         {"title": "Block 90 minutes", "durationInMinutes": 90},
         {"title": "No interruptions", "durationInMinutes": 90}
@@ -82,7 +82,7 @@
       "rating": 4.9,
       "duration": "30 min",
       "level": "Beginner",
-      "imageUrl": "https://picsum.photos/id/5/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004421.png",
       "steps": [
         {"title": "Wake up early", "durationInMinutes": 30},
         {"title": "Plan your day", "durationInMinutes": 30}
@@ -96,7 +96,7 @@
       "rating": 4.7,
       "duration": "10 min",
       "level": "Beginner",
-      "imageUrl": "https://picsum.photos/id/6/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/928/928457.png",
       "steps": [
         {"title": "Find quiet place", "durationInMinutes": 10},
         {"title": "Focus on breath", "durationInMinutes": 10}
@@ -110,7 +110,7 @@
       "rating": 5.0,
       "duration": "8 hours",
       "level": "Beginner",
-      "imageUrl": "https://picsum.photos/id/7/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2997/2997811.png",
       "steps": [
         {"title": "Set bedtime", "durationInMinutes": 480},
         {"title": "No screens before bed", "durationInMinutes": 480}
@@ -124,7 +124,7 @@
       "rating": 4.6,
       "duration": "1 min",
       "level": "Beginner",
-      "imageUrl": "https://picsum.photos/id/8/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2843/2843898.png",
       "steps": [
         {"title": "Keep water bottle", "durationInMinutes": 1},
         {"title": "Sip regularly", "durationInMinutes": 1}
@@ -138,7 +138,7 @@
       "rating": 4.9,
       "duration": "20 min",
       "level": "Intermediate",
-      "imageUrl": "https://picsum.photos/id/9/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3479/3479189.png",
       "steps": [
         {"title": "Write specific goal", "durationInMinutes": 20},
         {"title": "Set a deadline", "durationInMinutes": 20}
@@ -152,10 +152,38 @@
       "rating": 4.9,
       "duration": "25 min",
       "level": "Advanced",
-      "imageUrl": "https://picsum.photos/id/10/200/300",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/1080/1080756.png",
       "steps": [
         {"title": "Identify hardest task", "durationInMinutes": 25},
         {"title": "Do it first", "durationInMinutes": 25}
+      ]
+    },
+    {
+      "id": "say_no",
+      "name": "Learn to Say No",
+      "description": "Protect your time",
+      "provider": "PomoFlow",
+      "rating": 4.9,
+      "duration": "5 min",
+      "level": "Expert",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2942/2942854.png",
+      "steps": [
+        {"title": "Evaluate the request", "durationInMinutes": 5},
+        {"title": "Say no politely", "durationInMinutes": 5}
+      ]
+    },
+    {
+      "id": "accountability",
+      "name": "Accountability Partner",
+      "description": "Share goals with someone who checks on you",
+      "provider": "PomoFlow",
+      "rating": 4.8,
+      "duration": "10 min",
+      "level": "Intermediate",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/4603/4603195.png",
+      "steps": [
+        {"title": "Find a partner", "durationInMinutes": 10},
+        {"title": "Weekly check-in", "durationInMinutes": 10}
       ]
     }
   ]
