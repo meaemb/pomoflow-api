@@ -10,9 +10,9 @@
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004459.png",
       "steps": [
-        {"title": "Choose a task", "description": "Pick one specific task", "duration": "1-2 min", "tip": "Start with most important task", "durationInMinutes": 25},
-        {"title": "Set timer 25 min", "description": "Focus only on that task", "duration": "25 min", "tip": "Put phone away", "durationInMinutes": 25},
-        {"title": "Take 5 min break", "description": "Step away from desk", "duration": "5 min", "tip": "Walk around, stretch", "durationInMinutes": 5}
+        {"title": "Choose a task", "description": "Pick one specific task", "fullDescription": "Select one specific task you want to accomplish.", "duration": "1-2 min", "tip": "Start with the most important task", "durationInMinutes": 25},
+        {"title": "Set timer", "description": "Focus only on that task", "fullDescription": "Start the timer for 25 minutes. Focus only on your chosen task.", "duration": "25 min", "tip": "Put your phone away", "durationInMinutes": 25},
+        {"title": "Take break", "description": "Step away from desk", "fullDescription": "Step away from your desk. Stretch your legs, drink water.", "duration": "5 min", "tip": "Walk around, stretch", "durationInMinutes": 5}
       ]
     },
     {
@@ -25,9 +25,9 @@
       "level": "Easy",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/2170/2170149.png",
       "steps": [
-        {"title": "Put phone away", "description": "Keep in another room", "duration": "1 min", "tip": "Use alarm clock", "durationInMinutes": 25},
-        {"title": "Use Focus Mode", "description": "Enable Do Not Disturb", "duration": "1 min", "tip": "Most phones have Focus Mode", "durationInMinutes": 25},
-        {"title": "Check on breaks", "description": "Only during breaks", "duration": "5 min", "tip": "Set timer for phone check", "durationInMinutes": 5}
+        {"title": "Put phone away", "description": "Keep in another room", "fullDescription": "Physically place your phone in another room.", "duration": "1 min", "tip": "Use an alarm clock", "durationInMinutes": 25},
+        {"title": "Use Focus Mode", "description": "Enable Do Not Disturb", "fullDescription": "Enable Do Not Disturb mode on all your devices.", "duration": "1 min", "tip": "Most phones have Focus Mode", "durationInMinutes": 25},
+        {"title": "Check on breaks", "description": "Only during breaks", "fullDescription": "Only check your phone during scheduled breaks.", "duration": "5 min", "tip": "Set a timer", "durationInMinutes": 5}
       ]
     },
     {
@@ -40,9 +40,9 @@
       "level": "Intermediate",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3245/3245822.png",
       "steps": [
-        {"title": "Write down task", "description": "Be specific", "duration": "2 min", "tip": "Use notebook", "durationInMinutes": 25},
-        {"title": "Block distractions", "description": "Close unnecessary tabs", "duration": "2 min", "tip": "Use website blockers", "durationInMinutes": 25},
-        {"title": "Work until ring", "description": "No switching", "duration": "25 min", "tip": "Write new tasks for later", "durationInMinutes": 25}
+        {"title": "Write task", "description": "Be specific", "fullDescription": "Write down exactly what you need to accomplish.", "duration": "2 min", "tip": "Use a notebook", "durationInMinutes": 25},
+        {"title": "Block distractions", "description": "Close unnecessary tabs", "fullDescription": "Close all unnecessary browser tabs.", "duration": "2 min", "tip": "Use website blockers", "durationInMinutes": 25},
+        {"title": "Work until ring", "description": "No switching", "fullDescription": "Do not switch tasks until the timer rings.", "duration": "25 min", "tip": "Write new tasks for later", "durationInMinutes": 25}
       ]
     },
     {
@@ -55,9 +55,9 @@
       "level": "Easy",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3014/3014407.png",
       "steps": [
-        {"title": "Stand up", "description": "Move your body", "duration": "2 min", "tip": "Set timer to stand up", "durationInMinutes": 5},
-        {"title": "Drink water", "description": "Stay hydrated", "duration": "1 min", "tip": "Keep water bottle", "durationInMinutes": 5},
-        {"title": "Deep breaths", "description": "Reset your mind", "duration": "2 min", "tip": "Try 4-7-8 breathing", "durationInMinutes": 5}
+        {"title": "Stand up", "description": "Move your body", "fullDescription": "Stand up from your desk. Stretch your arms, legs, and back.", "duration": "2 min", "tip": "Set a timer", "durationInMinutes": 5},
+        {"title": "Drink water", "description": "Stay hydrated", "fullDescription": "Drink a glass of water. Dehydration causes fatigue.", "duration": "1 min", "tip": "Keep water bottle", "durationInMinutes": 5},
+        {"title": "Deep breaths", "description": "Reset your mind", "fullDescription": "Take 5 deep breaths. Inhale slowly, exhale slowly.", "duration": "2 min", "tip": "Try 4-7-8 breathing", "durationInMinutes": 5}
       ]
     },
     {
@@ -70,9 +70,9 @@
       "level": "Expert",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/10300/10300998.png",
       "steps": [
-        {"title": "Block 90 minutes", "description": "Schedule uninterrupted time", "duration": "5 min", "tip": "Turn off notifications", "durationInMinutes": 90},
-        {"title": "Eliminate distractions", "description": "Remove everything distracting", "duration": "5 min", "tip": "Use website blockers", "durationInMinutes": 90},
-        {"title": "Focus deeply", "description": "Work on one demanding task", "duration": "80 min", "tip": "Don't check email", "durationInMinutes": 90}
+        {"title": "Block time", "description": "Schedule 90 minutes", "fullDescription": "Schedule 90 minutes when you won't be disturbed.", "duration": "5 min", "tip": "Turn off notifications", "durationInMinutes": 90},
+        {"title": "Eliminate distractions", "description": "Remove everything distracting", "fullDescription": "Put phone away. Close unnecessary tabs.", "duration": "5 min", "tip": "Use website blockers", "durationInMinutes": 90},
+        {"title": "Focus deeply", "description": "Work on one task", "fullDescription": "Work on a single demanding task requiring concentration.", "duration": "80 min", "tip": "Don't check email", "durationInMinutes": 90}
       ]
     },
     {
@@ -85,9 +85,39 @@
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004421.png",
       "steps": [
-        {"title": "Wake up early", "description": "Same time every day", "duration": "5 min", "tip": "Place alarm across room", "durationInMinutes": 30},
-        {"title": "Drink water", "description": "Hydrate your body", "duration": "5 min", "tip": "Keep water by bed", "durationInMinutes": 30},
-        {"title": "Plan your day", "description": "Write top 3 priorities", "duration": "20 min", "tip": "Use notebook", "durationInMinutes": 30}
+        {"title": "Wake up early", "description": "Same time every day", "fullDescription": "Wake up at the same time every day. Avoid snooze.", "duration": "5 min", "tip": "Place alarm across room", "durationInMinutes": 30},
+        {"title": "Hydrate", "description": "Drink water", "fullDescription": "Drink a glass of water first thing.", "duration": "5 min", "tip": "Keep water by bed", "durationInMinutes": 30},
+        {"title": "Plan", "description": "Write priorities", "fullDescription": "Write your top 3 priorities for the day.", "duration": "20 min", "tip": "Use a notebook", "durationInMinutes": 30}
+      ]
+    },
+    {
+      "id": "meditate",
+      "name": "Meditate",
+      "description": "10 minutes to reduce stress",
+      "provider": "PomoFlow",
+      "rating": 4.7,
+      "duration": "10 min",
+      "level": "Beginner",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/928/928457.png",
+      "steps": [
+        {"title": "Quiet place", "description": "Sit comfortably", "fullDescription": "Find a quiet place where you won't be disturbed.", "duration": "1 min", "tip": "Use a cushion", "durationInMinutes": 10},
+        {"title": "Focus on breath", "description": "Pay attention to breathing", "fullDescription": "Close your eyes. Focus on your breath as it goes in and out.", "duration": "8 min", "tip": "Start with 5-10 minutes", "durationInMinutes": 10},
+        {"title": "Return slowly", "description": "Open your eyes", "fullDescription": "Slowly open your eyes. Notice how you feel.", "duration": "1 min", "tip": "Use meditation app", "durationInMinutes": 10}
+      ]
+    },
+    {
+      "id": "sleep_well",
+      "name": "Sleep Well",
+      "description": "7-9 hours of sleep improves focus",
+      "provider": "PomoFlow",
+      "rating": 5.0,
+      "duration": "8 hours",
+      "level": "Beginner",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2997/2997811.png",
+      "steps": [
+        {"title": "Set bedtime", "description": "Same time every night", "fullDescription": "Set a bedtime and stick to it, even on weekends.", "duration": "5 min", "tip": "Use sleep tracker", "durationInMinutes": 480},
+        {"title": "No screens", "description": "Avoid 1 hour before bed", "fullDescription": "Avoid phones and computers 1 hour before bed.", "duration": "60 min", "tip": "Read a book instead", "durationInMinutes": 480},
+        {"title": "Relaxing routine", "description": "Wind down", "fullDescription": "Create a relaxing bedtime routine: dim lights, calm music.", "duration": "30 min", "tip": "Keep room cool and dark", "durationInMinutes": 480}
       ]
     }
   ]
