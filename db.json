@@ -3,16 +3,45 @@
     {
       "id": "pomodoro",
       "name": "Pomodoro Technique",
-      "description": "Work 25 min, break 5 min. Repeat 4 times.",
+      "description": "Work 25 min, break 5 min. Repeat 4 times, then long break.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "25 min",
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004459.png",
       "steps": [
-        {"title": "Choose a task", "durationInMinutes": 25},
-        {"title": "Set timer 25 min", "durationInMinutes": 25},
-        {"title": "Take 5 min break", "durationInMinutes": 5}
+        {
+          "title": "Choose a task",
+          "description": "Pick one specific task",
+          "fullDescription": "Select one specific task you want to accomplish. Write it down if needed.",
+          "duration": "1-2 min",
+          "tip": "Start with the most important task of your day.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Set timer 25 min",
+          "description": "Focus only on that task",
+          "fullDescription": "Start the timer for 25 minutes. During this time, focus only on your chosen task.",
+          "duration": "25 min",
+          "tip": "Put your phone away. Close unnecessary tabs.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Take 5 min break",
+          "description": "Step away from desk",
+          "fullDescription": "Step away from your desk. Stretch your legs, drink water.",
+          "duration": "5 min",
+          "tip": "Walk around, stretch. No screens!",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Repeat 4 times",
+          "description": "Then take long break",
+          "fullDescription": "After 4 Pomodoros, take a longer break of 15-30 minutes.",
+          "duration": "After 4 cycles",
+          "tip": "You deserve a longer break!",
+          "durationInMinutes": 15
+        }
       ]
     },
     {
@@ -25,165 +54,102 @@
       "level": "Easy",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/2170/2170149.png",
       "steps": [
-        {"title": "Put phone away", "durationInMinutes": 25},
-        {"title": "Use Focus Mode", "durationInMinutes": 25},
-        {"title": "Check on breaks", "durationInMinutes": 5}
+        {
+          "title": "Put phone away",
+          "description": "Keep in another room",
+          "fullDescription": "Physically place your phone in another room. Out of sight, out of mind.",
+          "duration": "1 min",
+          "tip": "Use an actual alarm clock instead of your phone.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Use Focus Mode",
+          "description": "Enable Do Not Disturb",
+          "fullDescription": "Enable Do Not Disturb mode on all your devices. Block distracting apps.",
+          "duration": "1 min",
+          "tip": "Most phones have a 'Focus Mode' feature.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Check on breaks",
+          "description": "Only during breaks",
+          "fullDescription": "Only check your phone during scheduled breaks.",
+          "duration": "5 min",
+          "tip": "Set a timer for your phone check.",
+          "durationInMinutes": 5
+        }
       ]
     },
     {
       "id": "one_task",
       "name": "One Task at a Time",
-      "description": "Focus on one thing",
+      "description": "Focus on one thing. Multitasking reduces productivity.",
       "provider": "PomoFlow",
       "rating": 4.8,
       "duration": "25 min",
       "level": "Intermediate",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3245/3245822.png",
       "steps": [
-        {"title": "Write your task", "durationInMinutes": 25},
-        {"title": "Block distractions", "durationInMinutes": 25},
-        {"title": "Work until ring", "durationInMinutes": 25}
+        {
+          "title": "Write down your task",
+          "description": "Be specific",
+          "fullDescription": "Write down exactly what you need to accomplish. Being specific helps your brain focus.",
+          "duration": "2 min",
+          "tip": "Use a notebook or digital task manager.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Block distractions",
+          "description": "Close unnecessary tabs",
+          "fullDescription": "Close all unnecessary browser tabs and apps. Keep only what you need.",
+          "duration": "2 min",
+          "tip": "Use website blockers if needed.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Work until timer rings",
+          "description": "No switching",
+          "fullDescription": "Do not switch tasks until the timer rings.",
+          "duration": "25 min",
+          "tip": "Write down new tasks for later.",
+          "durationInMinutes": 25
+        }
       ]
     },
     {
       "id": "take_breaks",
       "name": "Take Breaks Seriously",
-      "description": "Breaks help you recharge",
+      "description": "Breaks help you recharge and maintain focus",
       "provider": "PomoFlow",
       "rating": 4.6,
       "duration": "5 min",
       "level": "Easy",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3014/3014407.png",
       "steps": [
-        {"title": "Stand up", "durationInMinutes": 5},
-        {"title": "Drink water", "durationInMinutes": 5},
-        {"title": "Deep breaths", "durationInMinutes": 5}
-      ]
-    },
-    {
-      "id": "deep_work",
-      "name": "Deep Work",
-      "description": "90 minutes of uninterrupted focus",
-      "provider": "PomoFlow",
-      "rating": 5.0,
-      "duration": "90 min",
-      "level": "Expert",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/10300/10300998.png",
-      "steps": [
-        {"title": "Block 90 minutes", "durationInMinutes": 90},
-        {"title": "No interruptions", "durationInMinutes": 90}
-      ]
-    },
-    {
-      "id": "morning_routine",
-      "name": "Morning Routine",
-      "description": "Start your day with intention",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "30 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004421.png",
-      "steps": [
-        {"title": "Wake up early", "durationInMinutes": 30},
-        {"title": "Plan your day", "durationInMinutes": 30}
-      ]
-    },
-    {
-      "id": "meditate",
-      "name": "Meditate",
-      "description": "10 minutes to reduce stress",
-      "provider": "PomoFlow",
-      "rating": 4.7,
-      "duration": "10 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/928/928457.png",
-      "steps": [
-        {"title": "Find quiet place", "durationInMinutes": 10},
-        {"title": "Focus on breath", "durationInMinutes": 10}
-      ]
-    },
-    {
-      "id": "sleep_well",
-      "name": "Sleep Well",
-      "description": "7-9 hours of sleep improves focus",
-      "provider": "PomoFlow",
-      "rating": 5.0,
-      "duration": "8 hours",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2997/2997811.png",
-      "steps": [
-        {"title": "Set bedtime", "durationInMinutes": 480},
-        {"title": "No screens before bed", "durationInMinutes": 480}
-      ]
-    },
-    {
-      "id": "drink_water",
-      "name": "Drink Water",
-      "description": "Stay hydrated for better concentration",
-      "provider": "PomoFlow",
-      "rating": 4.6,
-      "duration": "1 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2843/2843898.png",
-      "steps": [
-        {"title": "Keep water bottle", "durationInMinutes": 1},
-        {"title": "Sip regularly", "durationInMinutes": 1}
-      ]
-    },
-    {
-      "id": "goal_setting",
-      "name": "Goal Setting",
-      "description": "Set SMART goals for better results",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "20 min",
-      "level": "Intermediate",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3479/3479189.png",
-      "steps": [
-        {"title": "Write specific goal", "durationInMinutes": 20},
-        {"title": "Set a deadline", "durationInMinutes": 20}
-      ]
-    },
-    {
-      "id": "eat_frog",
-      "name": "Eat the Frog",
-      "description": "Do the hardest task first",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "25 min",
-      "level": "Advanced",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/1080/1080756.png",
-      "steps": [
-        {"title": "Identify hardest task", "durationInMinutes": 25},
-        {"title": "Do it first", "durationInMinutes": 25}
-      ]
-    },
-    {
-      "id": "say_no",
-      "name": "Learn to Say No",
-      "description": "Protect your time",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "5 min",
-      "level": "Expert",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2942/2942854.png",
-      "steps": [
-        {"title": "Evaluate the request", "durationInMinutes": 5},
-        {"title": "Say no politely", "durationInMinutes": 5}
-      ]
-    },
-    {
-      "id": "accountability",
-      "name": "Accountability Partner",
-      "description": "Share goals with someone who checks on you",
-      "provider": "PomoFlow",
-      "rating": 4.8,
-      "duration": "10 min",
-      "level": "Intermediate",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/4603/4603195.png",
-      "steps": [
-        {"title": "Find a partner", "durationInMinutes": 10},
-        {"title": "Weekly check-in", "durationInMinutes": 10}
+        {
+          "title": "Stand up and stretch",
+          "description": "Move your body",
+          "fullDescription": "Stand up from your desk. Stretch your arms, legs, and back.",
+          "duration": "2 min",
+          "tip": "Set a timer to remind you to stand up every hour.",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Drink water",
+          "description": "Stay hydrated",
+          "fullDescription": "Drink a glass of water. Dehydration causes fatigue.",
+          "duration": "1 min",
+          "tip": "Keep a water bottle at your desk.",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Deep breaths",
+          "description": "Reset your mind",
+          "fullDescription": "Take 5 deep breaths. Inhale slowly through your nose, exhale through your mouth.",
+          "duration": "2 min",
+          "tip": "Try the 4-7-8 breathing technique.",
+          "durationInMinutes": 5
+        }
       ]
     }
   ]
