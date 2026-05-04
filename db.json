@@ -3,17 +3,16 @@
     {
       "id": "pomodoro",
       "name": "Pomodoro Technique",
-      "description": "Work 25 min, break 5 min. Repeat 4 times, then long break.",
+      "description": "Work 25 min, break 5 min. Repeat 4 times.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "25 min",
       "level": "Beginner",
       "imageUrl": "https://cdn.pixabay.com/photo/2017/08/06/18/01/timer-2595475_640.jpg",
       "steps": [
-        { "title": "Choose a task", "durationInMinutes": 25 },
-        { "title": "Set timer 25 min", "durationInMinutes": 25 },
-        { "title": "Take 5 min break", "durationInMinutes": 5 },
-        { "title": "Repeat 4 times", "durationInMinutes": 15 }
+        {"title": "Choose a task", "durationInMinutes": 25},
+        {"title": "Set timer 25 min", "durationInMinutes": 25},
+        {"title": "Take 5 min break", "durationInMinutes": 5}
       ]
     },
     {
@@ -26,53 +25,53 @@
       "level": "Easy",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/05/09/smartphone-1867673_640.jpg",
       "steps": [
-        { "title": "Put phone away", "durationInMinutes": 25 },
-        { "title": "Use Focus Mode", "durationInMinutes": 25 },
-        { "title": "Check on breaks", "durationInMinutes": 5 }
+        {"title": "Put phone away", "durationInMinutes": 25},
+        {"title": "Use Focus Mode", "durationInMinutes": 25},
+        {"title": "Check on breaks", "durationInMinutes": 5}
       ]
     },
     {
       "id": "one_task",
       "name": "One Task at a Time",
-      "description": "Focus on one thing. Multitasking reduces productivity.",
+      "description": "Focus on one thing",
       "provider": "PomoFlow",
       "rating": 4.8,
       "duration": "25 min",
       "level": "Intermediate",
       "imageUrl": "https://cdn.pixabay.com/photo/2015/02/02/15/28/bar-621033_640.jpg",
       "steps": [
-        { "title": "Write your task", "durationInMinutes": 25 },
-        { "title": "Block distractions", "durationInMinutes": 25 },
-        { "title": "Work until timer rings", "durationInMinutes": 25 }
+        {"title": "Write your task", "durationInMinutes": 25},
+        {"title": "Block distractions", "durationInMinutes": 25},
+        {"title": "Work until ring", "durationInMinutes": 25}
       ]
     },
     {
       "id": "take_breaks",
       "name": "Take Breaks Seriously",
-      "description": "Breaks help you recharge and maintain focus",
+      "description": "Breaks help you recharge",
       "provider": "PomoFlow",
       "rating": 4.6,
       "duration": "5 min",
       "level": "Easy",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/03/31/21/09/break-1296428_640.png",
       "steps": [
-        { "title": "Stand up and stretch", "durationInMinutes": 5 },
-        { "title": "Drink water", "durationInMinutes": 5 },
-        { "title": "Deep breaths", "durationInMinutes": 5 }
+        {"title": "Stand up", "durationInMinutes": 5},
+        {"title": "Drink water", "durationInMinutes": 5},
+        {"title": "Deep breaths", "durationInMinutes": 5}
       ]
     },
     {
       "id": "deep_work",
       "name": "Deep Work",
-      "description": "90 minutes of uninterrupted focused work",
+      "description": "90 minutes of uninterrupted focus",
       "provider": "PomoFlow",
       "rating": 5.0,
       "duration": "90 min",
       "level": "Expert",
       "imageUrl": "https://cdn.pixabay.com/photo/2015/01/21/14/14/apple-606761_640.jpg",
       "steps": [
-        { "title": "Block 90 minutes", "durationInMinutes": 90 },
-        { "title": "No interruptions", "durationInMinutes": 90 }
+        {"title": "Block 90 minutes", "durationInMinutes": 90},
+        {"title": "No interruptions", "durationInMinutes": 90}
       ]
     },
     {
@@ -85,106 +84,36 @@
       "level": "Beginner",
       "imageUrl": "https://cdn.pixabay.com/photo/2017/07/31/11/31/sunrise-2558566_640.jpg",
       "steps": [
-        { "title": "Wake up early", "durationInMinutes": 30 },
-        { "title": "Plan your day", "durationInMinutes": 30 }
+        {"title": "Wake up early", "durationInMinutes": 30},
+        {"title": "Plan your day", "durationInMinutes": 30}
       ]
     },
     {
       "id": "meditate",
       "name": "Meditate",
-      "description": "10 minutes of meditation reduces stress",
+      "description": "10 minutes to reduce stress",
       "provider": "PomoFlow",
       "rating": 4.7,
       "duration": "10 min",
       "level": "Beginner",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/06/20/lotus-1867700_640.jpg",
       "steps": [
-        { "title": "Find quiet place", "durationInMinutes": 10 },
-        { "title": "Focus on breath", "durationInMinutes": 10 }
-      ]
-    },
-    {
-      "id": "exercise_daily",
-      "name": "Exercise Daily",
-      "description": "Physical activity boosts brain function",
-      "provider": "PomoFlow",
-      "rating": 4.8,
-      "duration": "30 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn.pixabay.com/photo/2021/01/07/14/25/woman-5897003_640.jpg",
-      "steps": [
-        { "title": "Walk or run", "durationInMinutes": 30 },
-        { "title": "Stretch", "durationInMinutes": 30 }
+        {"title": "Find quiet place", "durationInMinutes": 10},
+        {"title": "Focus on breath", "durationInMinutes": 10}
       ]
     },
     {
       "id": "sleep_well",
       "name": "Sleep Well",
-      "description": "7-9 hours of sleep improves productivity",
+      "description": "7-9 hours of sleep improves focus",
       "provider": "PomoFlow",
       "rating": 5.0,
       "duration": "8 hours",
       "level": "Beginner",
       "imageUrl": "https://cdn.pixabay.com/photo/2017/02/01/22/52/sleeping-2031641_640.jpg",
       "steps": [
-        { "title": "Set bedtime", "durationInMinutes": 480 },
-        { "title": "No screens before bed", "durationInMinutes": 480 }
-      ]
-    },
-    {
-      "id": "drink_water",
-      "name": "Drink Water",
-      "description": "Stay hydrated for better concentration",
-      "provider": "PomoFlow",
-      "rating": 4.6,
-      "duration": "1 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/07/06/water-1868279_640.jpg",
-      "steps": [
-        { "title": "Keep water bottle", "durationInMinutes": 1 },
-        { "title": "Sip regularly", "durationInMinutes": 1 }
-      ]
-    },
-    {
-      "id": "weekly_plan",
-      "name": "Weekly Planning",
-      "description": "Plan your week every Monday morning",
-      "provider": "PomoFlow",
-      "rating": 4.8,
-      "duration": "20 min",
-      "level": "Intermediate",
-      "imageUrl": "https://cdn.pixabay.com/photo/2015/07/13/09/28/calendar-843162_640.jpg",
-      "steps": [
-        { "title": "Review goals", "durationInMinutes": 20 },
-        { "title": "Schedule tasks", "durationInMinutes": 20 }
-      ]
-    },
-    {
-      "id": "focus_mode",
-      "name": "Focus Mode",
-      "description": "Turn off notifications while working",
-      "provider": "PomoFlow",
-      "rating": 4.7,
-      "duration": "25 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn.pixabay.com/photo/2015/09/09/20/14/do-not-disturb-932816_640.jpg",
-      "steps": [
-        { "title": "Enable Do Not Disturb", "durationInMinutes": 25 },
-        { "title": "Work uninterrupted", "durationInMinutes": 25 }
-      ]
-    },
-    {
-      "id": "reward_yourself",
-      "name": "Reward Yourself",
-      "description": "Celebrate small wins to stay motivated",
-      "provider": "PomoFlow",
-      "rating": 4.6,
-      "duration": "5 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn.pixabay.com/photo/2013/07/12/12/55/gift-146547_640.png",
-      "steps": [
-        { "title": "Complete a task", "durationInMinutes": 5 },
-        { "title": "Take a small treat", "durationInMinutes": 5 }
+        {"title": "Set bedtime", "durationInMinutes": 480},
+        {"title": "No screens before bed", "durationInMinutes": 480}
       ]
     },
     {
@@ -197,78 +126,36 @@
       "level": "Intermediate",
       "imageUrl": "https://cdn.pixabay.com/photo/2017/06/14/19/55/aim-2403100_640.jpg",
       "steps": [
-        { "title": "Write specific goal", "durationInMinutes": 20 },
-        { "title": "Set a deadline", "durationInMinutes": 20 }
-      ]
-    },
-    {
-      "id": "brain_dump",
-      "name": "Brain Dump",
-      "description": "Write everything on your mind to clear mental space",
-      "provider": "PomoFlow",
-      "rating": 4.8,
-      "duration": "10 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn.pixabay.com/photo/2016/03/26/22/27/notes-1281598_640.jpg",
-      "steps": [
-        { "title": "Write everything down", "durationInMinutes": 10 },
-        { "title": "Organize later", "durationInMinutes": 10 }
-      ]
-    },
-    {
-      "id": "digital_detox",
-      "name": "Digital Detox",
-      "description": "Take one day off screens per week",
-      "provider": "PomoFlow",
-      "rating": 4.8,
-      "duration": "1 day",
-      "level": "Expert",
-      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/19/14/00/cell-1839390_640.jpg",
-      "steps": [
-        { "title": "No screens on Sunday", "durationInMinutes": 1440 },
-        { "title": "Read a book instead", "durationInMinutes": 1440 }
-      ]
-    },
-    {
-      "id": "pareto_80_20",
-      "name": "Pareto Principle (80/20)",
-      "description": "80% of results come from 20% of efforts",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "15 min",
-      "level": "Advanced",
-      "imageUrl": "https://cdn.pixabay.com/photo/2017/10/10/22/23/analytics-2836051_640.jpg",
-      "steps": [
-        { "title": "Identify top 20% tasks", "durationInMinutes": 15 },
-        { "title": "Focus on them", "durationInMinutes": 15 }
-      ]
-    },
-    {
-      "id": "say_no",
-      "name": "Learn to Say No",
-      "description": "Protect your time by declining non-essential requests",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "5 min",
-      "level": "Expert",
-      "imageUrl": "https://cdn.pixabay.com/photo/2017/02/12/10/33/no-2060153_640.jpg",
-      "steps": [
-        { "title": "Evaluate the request", "durationInMinutes": 5 },
-        { "title": "Say no politely", "durationInMinutes": 5 }
+        {"title": "Write specific goal", "durationInMinutes": 20},
+        {"title": "Set a deadline", "durationInMinutes": 20}
       ]
     },
     {
       "id": "eat_frog",
       "name": "Eat the Frog",
-      "description": "Do the hardest task first thing in the morning",
+      "description": "Do the hardest task first",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "25 min",
       "level": "Advanced",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/04/20/17/49/frog-1341461_640.jpg",
       "steps": [
-        { "title": "Identify hardest task", "durationInMinutes": 25 },
-        { "title": "Do it first", "durationInMinutes": 25 }
+        {"title": "Identify hardest task", "durationInMinutes": 25},
+        {"title": "Do it first", "durationInMinutes": 25}
+      ]
+    },
+    {
+      "id": "say_no",
+      "name": "Learn to Say No",
+      "description": "Protect your time",
+      "provider": "PomoFlow",
+      "rating": 4.9,
+      "duration": "5 min",
+      "level": "Expert",
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/02/12/10/33/no-2060153_640.jpg",
+      "steps": [
+        {"title": "Evaluate the request", "durationInMinutes": 5},
+        {"title": "Say no politely", "durationInMinutes": 5}
       ]
     },
     {
@@ -281,8 +168,8 @@
       "level": "Intermediate",
       "imageUrl": "https://cdn.pixabay.com/photo/2018/11/13/21/46/handshake-3814047_640.jpg",
       "steps": [
-        { "title": "Find a partner", "durationInMinutes": 10 },
-        { "title": "Weekly check-in", "durationInMinutes": 10 }
+        {"title": "Find a partner", "durationInMinutes": 10},
+        {"title": "Weekly check-in", "durationInMinutes": 10}
       ]
     }
   ]
