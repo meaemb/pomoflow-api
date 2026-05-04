@@ -3,14 +3,45 @@
     {
       "id": "pomodoro",
       "name": "Pomodoro Technique",
-      "description": "Work 25 min, break 5 min. Repeat 4 times.",
+      "description": "Work 25 min, break 5 min. Repeat 4 times, then long break.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "25 min",
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004459.png",
       "steps": [
-        {"title": "Choose a task", "description": "Pick one specific task", "duration": "1-2 min", "tip": "Start with the most important task", "durationInMinutes": 25}
+        {
+          "title": "Choose a task",
+          "description": "Pick one specific task you want to accomplish.",
+          "fullDescription": "Select one specific task you want to accomplish. Write it down if needed. Make sure it's a single task that can be completed in one Pomodoro session.",
+          "duration": "1-2 min",
+          "tip": "Start with the most important task of your day.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Set timer 25 min",
+          "description": "Focus only on that task.",
+          "fullDescription": "Start the timer for 25 minutes. During this time, focus only on your chosen task. No phone, no social media, no distractions.",
+          "duration": "25 min",
+          "tip": "Put your phone away. Close unnecessary tabs.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Take 5 min break",
+          "description": "Step away from your desk.",
+          "fullDescription": "Step away from your desk. Stretch your legs, drink water, close your eyes. Do anything that helps you relax, but avoid screens.",
+          "duration": "5 min",
+          "tip": "Walk around, stretch, drink water. No screens!",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Repeat 4 times",
+          "description": "After 4 cycles, take a long break.",
+          "fullDescription": "After 4 Pomodoros (about 2 hours), take a longer break of 15-30 minutes. Use this time to rest, eat, or go for a walk.",
+          "duration": "After 4 cycles",
+          "tip": "After 4 cycles, you deserve a longer break!",
+          "durationInMinutes": 15
+        }
       ]
     },
     {
@@ -23,150 +54,438 @@
       "level": "Easy",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/2170/2170149.png",
       "steps": [
-        {"title": "Put phone away", "description": "Keep in another room", "duration": "1 min", "tip": "Use an alarm clock", "durationInMinutes": 25}
+        {
+          "title": "Put phone away",
+          "description": "Keep your phone in another room.",
+          "fullDescription": "Physically place your phone in another room. Out of sight, out of mind. This removes the temptation to check notifications.",
+          "duration": "1 min",
+          "tip": "Use an actual alarm clock instead of your phone.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Use Focus Mode",
+          "description": "Enable Do Not Disturb on all devices.",
+          "fullDescription": "Enable Do Not Disturb mode on all your devices. Block distracting apps and websites.",
+          "duration": "1 min",
+          "tip": "Most phones have a 'Focus Mode' feature.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Check on breaks",
+          "description": "Only check your phone during breaks.",
+          "fullDescription": "Only check your phone during scheduled breaks. This trains your brain to focus without constant interruptions.",
+          "duration": "5 min",
+          "tip": "Set a timer for your phone check.",
+          "durationInMinutes": 5
+        }
       ]
     },
     {
       "id": "one_task",
       "name": "One Task at a Time",
-      "description": "Focus on one thing",
+      "description": "Focus on one thing. Multitasking reduces productivity.",
       "provider": "PomoFlow",
       "rating": 4.8,
       "duration": "25 min",
       "level": "Intermediate",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3245/3245822.png",
       "steps": [
-        {"title": "Write your task", "description": "Be specific", "duration": "2 min", "tip": "Use a notebook", "durationInMinutes": 25}
+        {
+          "title": "Write down your task",
+          "description": "Be specific about what you need to do.",
+          "fullDescription": "Write down exactly what you need to accomplish. Being specific helps your brain focus on one thing without confusion.",
+          "duration": "2 min",
+          "tip": "Use a notebook or digital task manager.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Block distractions",
+          "description": "Close all unnecessary tabs and apps.",
+          "fullDescription": "Close all unnecessary browser tabs and apps. Keep only what you need for your current task. Use website blockers if needed.",
+          "duration": "2 min",
+          "tip": "Use website blockers like Freedom or Cold Turkey.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Work until timer rings",
+          "description": "Do not switch tasks.",
+          "fullDescription": "Do not switch tasks until the timer rings. If a new task comes to mind, write it down and return to your current task.",
+          "duration": "25 min",
+          "tip": "The 2-minute rule: if it takes less than 2 minutes, do it now.",
+          "durationInMinutes": 25
+        }
       ]
     },
     {
       "id": "take_breaks",
       "name": "Take Breaks Seriously",
-      "description": "Breaks help you recharge",
+      "description": "Breaks help you recharge and maintain focus.",
       "provider": "PomoFlow",
       "rating": 4.6,
       "duration": "5 min",
       "level": "Easy",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3014/3014407.png",
       "steps": [
-        {"title": "Stand up", "description": "Move your body", "duration": "2 min", "tip": "Set a timer", "durationInMinutes": 5}
+        {
+          "title": "Stand up and stretch",
+          "description": "Move your body to improve blood flow.",
+          "fullDescription": "Stand up from your desk. Stretch your arms, legs, and back. This improves blood flow and reduces muscle tension.",
+          "duration": "2 min",
+          "tip": "Set a timer to remind you to stand up every hour.",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Drink water",
+          "description": "Stay hydrated to maintain concentration.",
+          "fullDescription": "Drink a glass of water. Dehydration can cause fatigue and reduce concentration. Keep a water bottle at your desk.",
+          "duration": "1 min",
+          "tip": "Aim for 8 glasses of water per day.",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Deep breaths",
+          "description": "Reset your mind with breathing exercises.",
+          "fullDescription": "Take 5 deep breaths. Inhale slowly through your nose, hold for a moment, exhale through your mouth. This reduces stress and clears your mind.",
+          "duration": "2 min",
+          "tip": "Try the 4-7-8 breathing technique.",
+          "durationInMinutes": 5
+        }
       ]
     },
     {
       "id": "deep_work",
       "name": "Deep Work",
-      "description": "90 minutes of uninterrupted focus",
+      "description": "90 minutes of uninterrupted focused work.",
       "provider": "PomoFlow",
       "rating": 5.0,
       "duration": "90 min",
       "level": "Expert",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/10300/10300998.png",
       "steps": [
-        {"title": "Block 90 minutes", "description": "No interruptions", "duration": "90 min", "tip": "Turn off notifications", "durationInMinutes": 90}
+        {
+          "title": "Block 90 minutes",
+          "description": "Schedule 90 minutes of uninterrupted time.",
+          "fullDescription": "Schedule 90 minutes in your calendar when you won't be disturbed. Turn off all notifications and close your door.",
+          "duration": "5 min",
+          "tip": "Inform colleagues that you won't be available.",
+          "durationInMinutes": 90
+        },
+        {
+          "title": "Eliminate all distractions",
+          "description": "Remove everything that can distract you.",
+          "fullDescription": "Put your phone away. Close all browser tabs not needed for work. Use website blockers.",
+          "duration": "5 min",
+          "tip": "Use apps like Freedom or Cold Turkey.",
+          "durationInMinutes": 90
+        },
+        {
+          "title": "Focus deeply on one task",
+          "description": "Work on a single cognitively demanding task.",
+          "fullDescription": "Work on a single task that requires deep concentration. This could be writing, coding, studying, or creative work.",
+          "duration": "80 min",
+          "tip": "Don't check email or social media during this time.",
+          "durationInMinutes": 90
+        }
       ]
     },
     {
       "id": "morning_routine",
       "name": "Morning Routine",
-      "description": "Start your day with intention",
+      "description": "Start your day with intention.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "30 min",
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3004/3004421.png",
       "steps": [
-        {"title": "Wake up early", "description": "Plan your day", "duration": "30 min", "tip": "Don't check phone", "durationInMinutes": 30}
+        {
+          "title": "Wake up early",
+          "description": "Wake up at the same time every day.",
+          "fullDescription": "Wake up at the same time every day. Avoid hitting snooze. Open curtains to let natural light in.",
+          "duration": "5 min",
+          "tip": "Place your alarm across the room.",
+          "durationInMinutes": 30
+        },
+        {
+          "title": "Drink water and stretch",
+          "description": "Hydrate and wake up your body.",
+          "fullDescription": "Drink a glass of water first thing. Stretch your body for 5 minutes to wake up your muscles.",
+          "duration": "10 min",
+          "tip": "Keep a water bottle by your bed.",
+          "durationInMinutes": 30
+        },
+        {
+          "title": "Plan your day",
+          "description": "Write down your top 3 priorities.",
+          "fullDescription": "Write down your top 3 priorities for the day. Review your calendar. Set intentions for what you want to accomplish.",
+          "duration": "15 min",
+          "tip": "Use a notebook or digital planner.",
+          "durationInMinutes": 30
+        }
       ]
     },
     {
       "id": "meditate",
       "name": "Meditate",
-      "description": "10 minutes to reduce stress",
+      "description": "10 minutes of meditation reduces stress.",
       "provider": "PomoFlow",
       "rating": 4.7,
       "duration": "10 min",
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/928/928457.png",
       "steps": [
-        {"title": "Find quiet place", "description": "Focus on breath", "duration": "10 min", "tip": "Use an app", "durationInMinutes": 10}
+        {
+          "title": "Find a quiet place",
+          "description": "Sit comfortably in a quiet space.",
+          "fullDescription": "Find a quiet place where you won't be disturbed. Sit comfortably with your back straight.",
+          "duration": "1 min",
+          "tip": "Use a cushion or chair.",
+          "durationInMinutes": 10
+        },
+        {
+          "title": "Focus on your breath",
+          "description": "Pay attention to your breathing.",
+          "fullDescription": "Close your eyes. Focus on your breath as it goes in and out. When your mind wanders, gently bring it back to your breath.",
+          "duration": "8 min",
+          "tip": "Start with 5-10 minutes daily.",
+          "durationInMinutes": 10
+        },
+        {
+          "title": "Gradually return",
+          "description": "Slowly open your eyes.",
+          "fullDescription": "After the timer rings, slowly open your eyes. Take a moment to notice how you feel before standing up.",
+          "duration": "1 min",
+          "tip": "Use a meditation app like Headspace or Calm.",
+          "durationInMinutes": 10
+        }
       ]
     },
     {
       "id": "sleep_well",
       "name": "Sleep Well",
-      "description": "7-9 hours of sleep improves focus",
+      "description": "7-9 hours of sleep improves productivity.",
       "provider": "PomoFlow",
       "rating": 5.0,
       "duration": "8 hours",
       "level": "Beginner",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/2997/2997811.png",
       "steps": [
-        {"title": "Set bedtime", "description": "No screens", "duration": "8 hours", "tip": "Keep phone away", "durationInMinutes": 480}
-      ]
-    },
-    {
-      "id": "drink_water",
-      "name": "Drink Water",
-      "description": "Stay hydrated",
-      "provider": "PomoFlow",
-      "rating": 4.6,
-      "duration": "1 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2843/2843898.png",
-      "steps": [
-        {"title": "Keep water bottle", "description": "Sip regularly", "duration": "1 min", "tip": "Set reminders", "durationInMinutes": 1}
+        {
+          "title": "Set a consistent bedtime",
+          "description": "Go to bed at the same time every night.",
+          "fullDescription": "Set a bedtime and stick to it, even on weekends. Aim for 7-9 hours of sleep.",
+          "duration": "5 min",
+          "tip": "Use a sleep tracking app.",
+          "durationInMinutes": 480
+        },
+        {
+          "title": "No screens before bed",
+          "description": "Avoid phones and computers 1 hour before bed.",
+          "fullDescription": "Avoid phones, tablets, and computers 1 hour before bed. The blue light disrupts melatonin production.",
+          "duration": "60 min",
+          "tip": "Read a book instead.",
+          "durationInMinutes": 480
+        },
+        {
+          "title": "Create a relaxing routine",
+          "description": "Wind down with calming activities.",
+          "fullDescription": "Create a relaxing bedtime routine: dim lights, listen to calm music, read, or take a warm bath.",
+          "duration": "30 min",
+          "tip": "Keep your bedroom cool and dark.",
+          "durationInMinutes": 480
+        }
       ]
     },
     {
       "id": "goal_setting",
       "name": "Goal Setting",
-      "description": "Set SMART goals",
+      "description": "Set SMART goals for better results.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "20 min",
       "level": "Intermediate",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/3479/3479189.png",
       "steps": [
-        {"title": "Write specific goal", "description": "Set a deadline", "duration": "20 min", "tip": "Make it measurable", "durationInMinutes": 20}
+        {
+          "title": "Make it Specific",
+          "description": "Clearly define what you want to achieve.",
+          "fullDescription": "Don't just say 'I want to exercise'. Say 'I will walk 30 minutes every morning'.",
+          "duration": "5 min",
+          "tip": "Use the 5 W's: Who, What, Where, When, Why.",
+          "durationInMinutes": 20
+        },
+        {
+          "title": "Make it Measurable",
+          "description": "Track your progress with numbers.",
+          "fullDescription": "Make sure you can measure your progress. Track your progress daily or weekly.",
+          "duration": "5 min",
+          "tip": "Use a habit tracker app.",
+          "durationInMinutes": 20
+        },
+        {
+          "title": "Set a deadline",
+          "description": "Give yourself a time limit.",
+          "fullDescription": "Set a realistic deadline for achieving your goal. Break down large goals into smaller milestones.",
+          "duration": "10 min",
+          "tip": "Review your goals weekly.",
+          "durationInMinutes": 20
+        }
       ]
     },
     {
       "id": "eat_frog",
       "name": "Eat the Frog",
-      "description": "Do the hardest task first",
+      "description": "Do the hardest task first thing in the morning.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "25 min",
       "level": "Advanced",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/1080/1080756.png",
       "steps": [
-        {"title": "Identify hardest task", "description": "Do it first", "duration": "25 min", "tip": "Don't procrastinate", "durationInMinutes": 25}
+        {
+          "title": "Identify your frog",
+          "description": "Find the hardest task on your list.",
+          "fullDescription": "At the end of your day, write down the most important and challenging task for tomorrow. This is your 'frog'.",
+          "duration": "5 min",
+          "tip": "Be honest about what's hard.",
+          "durationInMinutes": 25
+        },
+        {
+          "title": "Eat it first",
+          "description": "Do the hardest task before anything else.",
+          "fullDescription": "When you start your day, do this task first. Don't check email or social media until it's done.",
+          "duration": "20 min",
+          "tip": "Block your calendar for this task.",
+          "durationInMinutes": 25
+        }
       ]
     },
     {
       "id": "say_no",
       "name": "Learn to Say No",
-      "description": "Protect your time",
+      "description": "Protect your time by declining non-essential requests.",
       "provider": "PomoFlow",
       "rating": 4.9,
       "duration": "5 min",
       "level": "Expert",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/2942/2942854.png",
       "steps": [
-        {"title": "Evaluate request", "description": "Say no politely", "duration": "5 min", "tip": "Be respectful", "durationInMinutes": 5}
+        {
+          "title": "Evaluate the request",
+          "description": "Ask yourself if it aligns with your goals.",
+          "fullDescription": "Before saying yes, ask: Does this align with my priorities? Do I have time? Will I regret saying yes?",
+          "duration": "2 min",
+          "tip": "Don't answer immediately. Say 'Let me check my calendar'.",
+          "durationInMinutes": 5
+        },
+        {
+          "title": "Say no politely",
+          "description": "Decline without feeling guilty.",
+          "fullDescription": "Say 'Thank you for thinking of me, but I can't take this on right now'. Offer an alternative if possible.",
+          "duration": "2 min",
+          "tip": "Practice saying no in the mirror.",
+          "durationInMinutes": 5
+        }
       ]
     },
     {
       "id": "accountability",
       "name": "Accountability Partner",
-      "description": "Share goals with someone",
+      "description": "Share goals with someone who checks on you.",
       "provider": "PomoFlow",
       "rating": 4.8,
       "duration": "10 min",
       "level": "Intermediate",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/4603/4603195.png",
       "steps": [
-        {"title": "Find a partner", "description": "Weekly check-in", "duration": "10 min", "tip": "Be honest", "durationInMinutes": 10}
+        {
+          "title": "Find a partner",
+          "description": "Choose someone reliable.",
+          "fullDescription": "Find a trusted friend, colleague, or family member who will hold you accountable. Share your goals with them.",
+          "duration": "5 min",
+          "tip": "Choose someone who will be honest with you.",
+          "durationInMinutes": 10
+        },
+        {
+          "title": "Weekly check-in",
+          "description": "Schedule regular progress updates.",
+          "fullDescription": "Schedule a weekly 10-minute call or message exchange. Share your progress, challenges, and next week's goals.",
+          "duration": "10 min",
+          "tip": "Use a shared document to track progress.",
+          "durationInMinutes": 10
+        },
+        {
+          "title": "Celebrate wins together",
+          "description": "Celebrate when you achieve goals.",
+          "fullDescription": "When you achieve a milestone, celebrate together. This could be a coffee, a meal, or just a congratulatory message.",
+          "duration": "5 min",
+          "tip": "Celebrate progress, not just perfection.",
+          "durationInMinutes": 10
+        }
+      ]
+    },
+    {
+      "id": "brain_dump",
+      "name": "Brain Dump",
+      "description": "Write everything on your mind to clear mental space.",
+      "provider": "PomoFlow",
+      "rating": 4.8,
+      "duration": "10 min",
+      "level": "Beginner",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2838/2838912.png",
+      "steps": [
+        {
+          "title": "Set a timer for 10 minutes",
+          "description": "Give yourself time to write freely.",
+          "fullDescription": "Set a timer for 10 minutes. Don't think about formatting or grammar.",
+          "duration": "1 min",
+          "tip": "Use a notebook or a blank document.",
+          "durationInMinutes": 10
+        },
+        {
+          "title": "Write everything down",
+          "description": "Don't filter or organize.",
+          "fullDescription": "Write down everything that's on your mind: tasks, worries, ideas, reminders. Don't judge or filter.",
+          "duration": "8 min",
+          "tip": "If you get stuck, write 'I don't know what to write' until ideas come.",
+          "durationInMinutes": 10
+        },
+        {
+          "title": "Review and organize",
+          "description": "Sort your thoughts into categories.",
+          "fullDescription": "After the timer, review what you wrote. Sort tasks: do now, delegate, schedule, delete. Identify patterns or recurring worries.",
+          "duration": "5 min",
+          "tip": "Use different colored pens for different categories.",
+          "durationInMinutes": 10
+        }
+      ]
+    },
+    {
+      "id": "two_minute_rule",
+      "name": "2-Minute Rule",
+      "description": "If a task takes less than 2 minutes, do it immediately.",
+      "provider": "PomoFlow",
+      "rating": 4.8,
+      "duration": "2 min",
+      "level": "Beginner",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/190/190411.png",
+      "steps": [
+        {
+          "title": "Identify quick tasks",
+          "description": "Look for tasks that take 2 minutes or less.",
+          "fullDescription": "Throughout your day, notice tasks that take 2 minutes or less: replying to an email, washing a dish, filing a document.",
+          "duration": "2 min",
+          "tip": "Keep a running list of quick tasks.",
+          "durationInMinutes": 2
+        },
+        {
+          "title": "Do them now",
+          "description": "Don't postpone small tasks.",
+          "fullDescription": "When you identify a quick task, do it immediately. Don't add it to your to-do list. Don't postpone.",
+          "duration": "2 min",
+          "tip": "This prevents small tasks from piling up.",
+          "durationInMinutes": 2
+        }
       ]
     }
   ]
