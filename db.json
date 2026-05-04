@@ -33,7 +33,7 @@
     {
       "id": "one_task",
       "name": "One Task at a Time",
-      "description": "Focus on one thing. Multitasking reduces productivity.",
+      "description": "Focus on one thing",
       "provider": "PomoFlow",
       "rating": 4.8,
       "duration": "25 min",
@@ -71,7 +71,8 @@
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/10300/10300998.png",
       "steps": [
         {"title": "Block 90 minutes", "description": "Schedule uninterrupted time", "duration": "5 min", "tip": "Turn off notifications", "durationInMinutes": 90},
-        {"title": "Eliminate distractions", "description": "Remove everything distracting", "duration": "5 min", "tip": "Use website blockers", "durationInMinutes": 90}
+        {"title": "Eliminate distractions", "description": "Remove everything distracting", "duration": "5 min", "tip": "Use website blockers", "durationInMinutes": 90},
+        {"title": "Focus deeply", "description": "Work on one demanding task", "duration": "80 min", "tip": "Don't check email", "durationInMinutes": 90}
       ]
     },
     {
@@ -86,64 +87,7 @@
       "steps": [
         {"title": "Wake up early", "description": "Same time every day", "duration": "5 min", "tip": "Place alarm across room", "durationInMinutes": 30},
         {"title": "Drink water", "description": "Hydrate your body", "duration": "5 min", "tip": "Keep water by bed", "durationInMinutes": 30},
-        {"title": "Plan your day", "description": "Write top 3 priorities", "duration": "15 min", "tip": "Use notebook or planner", "durationInMinutes": 30}
-      ]
-    },
-    {
-      "id": "meditate",
-      "name": "Meditate",
-      "description": "10 minutes to reduce stress",
-      "provider": "PomoFlow",
-      "rating": 4.7,
-      "duration": "10 min",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/928/928457.png",
-      "steps": [
-        {"title": "Find quiet place", "description": "Sit comfortably", "duration": "1 min", "tip": "Use cushion", "durationInMinutes": 10},
-        {"title": "Focus on breath", "description": "Pay attention to breathing", "duration": "8 min", "tip": "Start with 5-10 min", "durationInMinutes": 10}
-      ]
-    },
-    {
-      "id": "sleep_well",
-      "name": "Sleep Well",
-      "description": "7-9 hours of sleep improves focus",
-      "provider": "PomoFlow",
-      "rating": 5.0,
-      "duration": "8 hours",
-      "level": "Beginner",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/2997/2997811.png",
-      "steps": [
-        {"title": "Set bedtime", "description": "Same time every night", "duration": "5 min", "tip": "Use sleep tracker", "durationInMinutes": 480},
-        {"title": "No screens", "description": "Avoid 1 hour before bed", "duration": "60 min", "tip": "Read a book", "durationInMinutes": 480}
-      ]
-    },
-    {
-      "id": "goal_setting",
-      "name": "Goal Setting",
-      "description": "Set SMART goals for better results",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "20 min",
-      "level": "Intermediate",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3479/3479189.png",
-      "steps": [
-        {"title": "Make it Specific", "description": "Clearly define goal", "duration": "5 min", "tip": "Use 5 W's", "durationInMinutes": 20},
-        {"title": "Make it Measurable", "description": "Track progress", "duration": "5 min", "tip": "Use habit tracker", "durationInMinutes": 20},
-        {"title": "Set deadline", "description": "Give time limit", "duration": "10 min", "tip": "Review weekly", "durationInMinutes": 20}
-      ]
-    },
-    {
-      "id": "eat_frog",
-      "name": "Eat the Frog",
-      "description": "Do the hardest task first",
-      "provider": "PomoFlow",
-      "rating": 4.9,
-      "duration": "25 min",
-      "level": "Advanced",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/1080/1080756.png",
-      "steps": [
-        {"title": "Identify your frog", "description": "Find hardest task", "duration": "5 min", "tip": "Be honest", "durationInMinutes": 25},
-        {"title": "Eat it first", "description": "Do it before anything else", "duration": "20 min", "tip": "Block calendar", "durationInMinutes": 25}
+        {"title": "Plan your day", "description": "Write top 3 priorities", "duration": "20 min", "tip": "Use notebook", "durationInMinutes": 30}
       ]
     }
   ]
